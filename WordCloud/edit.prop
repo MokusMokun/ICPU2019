@@ -1,0 +1,10 @@
+filename=<Data/违规信息-三个行业.xlsx>
+title=<Activity>
+ignoreword=<方法,社会,保障局,广东,广州,公司>
+background=<love.jpg>
+fontfile=<STFANGSO.TTF>
+background_color=<white>
+max_words=<200>
+ignor_blow_num=<0>
+picture_width=<500>
+picture_height=<300>
