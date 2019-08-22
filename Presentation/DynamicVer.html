@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>ICPU Deloitte</title>
+  <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/reveal.min.css" rel="stylesheet">
+  <link href="css/white.css" rel="stylesheet" type="text/css">
+  <link href="css/reveal_helper.css" rel="stylesheet"  type="text/css">
+  <!-- <link href="https://cdn.bootcss.com/reveal.js/3.6.0/css/theme/white.min.css" rel="stylesheet">
+-->
+
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+      <!-- Slide 1: Intro -->
+      <section data-background="picture/1.png" >
+        <div class="greyRef" style="font-size:40px"> 悉尼大学 | 跨学科项目组 | 2019年7月 </div>
+        <h1>粤港澳大湾区公司画像</h1>
+        <div class="greenBox" style="padding:10px">
+          <div class="slide1_left" style="padding-left: 50px; padding-right: 50px">
+            赵子晴 Alex <br>
+            张艺璇 Nikki <br>
+            邓佳琪 Linda
+          </div>
+          <div class="slide1_right">
+            胡宇皓 Mirope <br>
+            汤深浅 Eric <br>
+            陈思 Reya
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 2: 研究方向 -->
+      <section data-background="picture/2.png" data-background-position="center" data-background-size="120%">
+
+        <div class = "slide2">
+          <!-- 左边:标题 -->
+          <div class="slide2_left" style="padding-bottom:200px;height: 100%;">
+            <div style="padding-top:0px"> <h1 style="color:white"> 研究方向 </h1>
+            </div>
+            <br>
+            <div>
+              <h5 style="color: #86bc25; font-size: 25px"> Problem Statement </h5>
+            </div>
+          </div>
+
+            <!-- 右边:内容 -->
+            <div class="slide2_right" style="padding-top:50px">
+
+              <div class="slide2_sub_left" style="padding-left:120px;padding-right:35px">
+                <div style="padding-top:5px;padding-right:50px"> 定性转定量 <br>
+                  <p style="font-size:30px;"> 将定性研究的结果转化成定量数据</p>
+                </div>
+                <br><br>
+                <div style="padding-top:300px;padding-right:50px;"> 风险因子关联性 <br>
+                  <p style="font-size:30px;"> 考虑风险因子关联性</p>
+                </div>
+              </div>
+
+              <div>
+                <div style="padding-top:0px;padding-right:50px;"> 风险因子重要性 <br>
+                  <p style="font-size:30px"> 选出对风险有影响的风险因子并根据重要性排序 </p>
+                </div>
+                <br><br><br>
+                <div style="position:absolute;right:20px;padding-top:200px;padding-left:20px;"> 风险画像可视化 <br>
+                  <p style="font-size:30px"> 选择合理的可视化手段使风险分析<br>结果一目了然 </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+      </section>
+
+      <!-- Slide 3: 关键建议 -->
+      <section data-background="picture/3.png" data-background-position="center" data-background-size="120%">
+        <div class = "slide3">
+          <div class="slide3_left">
+            <p style="color: white;font-size: 90px;"> 关<br>键<br>建<br>议</p>
+          </div>
+
+          <div class="slide3_right" style="padding-left:250px;padding-top:250px;font-size:50px">
+            <div class="fragment" style="width: 400px; padding-right:20px">
+              <p style="font-weight:700;font-size:50px"> 1.数据处理 </p>
+              <br> <br>
+                <ol style="font-size:40px;font-weight:100">
+                  <li>风险因子分层</li>
+                  <li>定性转定量</li>
+                </ol>
+            </div>
+            <div class="fragment" style="width: 400px; padding-right:40px">
+              <p style="font-weight:700;font-size:50px"> 2.模型构建 </p>
+              <br> <br>
+                <ol style="font-size:40px;font-weight:100">
+                  <li>随机森林模型</li>
+                  <li>分析风险因子重要性</li>
+                </ol>
+            </div>
+            <div class="fragment" style="width: 400px;">
+              <p style="font-weight:700;font-size:50px"> 3.评测结果可视化 </p>
+              <br> <br>
+                <ol style="font-size:40px;font-weight:100">
+                  <li>多维画像模型</li>
+                  <li>应用情景</li>
+                </ol>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <!-- Slide 3.5 -->
+      <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/3_5.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+      </section>
+
+      <!-- Slide 4: 数据收集 - 选择和排列风险因子 -->
+      <section>
+
+        <section data-background="picture/4.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 数 据 收 集 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:480px;padding-right:100px;">
+                <p style="font-size:50px;font-weight:200"> 建议 1.1</p>
+                <p style="font-size:80px;"> 选择和排列风险因子 </p> <br>
+                <p style="font-weight:100"> SELECTING AND CATEGORISING RISK FACTORS </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 4-1 -->
+        <section data-background="picture/4-1.png" data-background-position="center" data-background-size="110%">
+          <div class="slide49">
+            <div class="slide4_1_left">
+              <div style="font-size:70px; padding-right:150px; font-weight: bold">风险因子分层</div>
+              <div style="padding-top:100px;padding-right:170px">
+                <img src="picture/Slide_4_1.png" width="550px" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+              </div>
+            </div>
+            <div class="slide4_1_right">
+              <div class="slide4_1_subright" style="padding-bottom: 60px;padding-left: 50px;">
+                宏观环境<br>
+                <p style="font-size:30px;font-weight:200">
+                  大湾区是否已建成营商友好型环境
+                </p>
+              </div>
+              <div class="slide4_1_subright" style="padding-bottom: 90px;padding-left: 50px;">
+                行业环境<br>
+                <p style="font-size:30px;font-weight:200">
+                  大湾区重点行业（软件服务 电子制造 交通运输）环境分析
+                </p>
+              </div>
+              <div class="slide4_1_subright" style="padding-bottom: 80px;padding-left: 50px;">
+                内部非财务<br>
+                <p style="font-size:30px;font-weight:200">
+                  股权结构 企业成长 主营业务 企业形象 处罚历史
+                </p>
+              </div>
+              <div class="slide4_1_subright" style="padding-bottom: 50px;padding-left: 50px;">
+                内部财务<br>
+                <p style="font-size:30px;font-weight:200">
+                  财务比率研究
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 4-2 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/4-2.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 5: 数据处理 - 定性转定量 -->
+      <section>
+
+        <section data-background="picture/5.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 数 据 处 理 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:480px;padding-right:100px;">
+                <p style="font-size:50px;font-weight:200"> 建议 1.2</p>
+                <p style="font-size:80px;"> 定性转定量 </p> <br>
+                <p style="font-weight:100"> QUALITATIVE TO QUANTITATIVE TRANSFORMATION </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 5-0 -->
+        <section data-background="picture/Blank-header.png">
+          <div style="text-align:left;padding-left:200px;padding-top:20px">
+            <h3> 内部财务风险因子 </h3>
+          </div>
+          <div style="padding-top:100px">
+            <img src="picture/5-0.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-1 -->
+        <section data-background="picture/Empty_background.png" >
+          <div class="slide5_1_up" style="padding-left:100px;padding-bottom:150px">
+            <h3> 需要定性转定量的三个方面 </h3>
+          </div>
+          <div class="slide5_1_down" style="display:flex;padding-bottom:100px">
+            <div style="padding-left:100px;">
+              <div style="background: #d9d9d9; width:400px">
+                <div class="slide5_1_section_pic1"></div>
+                <div class="slide5_1_section_text">
+                  <div style="padding-left:20px" >
+                    <p style="font-weight:600;"> 宏观环境分析 </p>
+                    <p style="font-weight:100; font-size:30px"> 经济和政策 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-left:100px">
+              <div style="background: #d9d9d9; width:400px">
+                <div class="slide5_1_section_pic2"></div>
+                <div class="slide5_1_section_text">
+                  <div style="padding-left:20px" >
+                    <p style="font-weight:600;"> 行业环境分析 </p>
+                    <p style="font-weight:100; font-size:30px"> 交通运输 | 电子制造 |
+                    <br>信息软件服务 </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="padding-left:100px">
+              <div style="background: #d9d9d9; width:400px">
+                <div class="slide5_1_section_pic3"></div>
+                <div class="slide5_1_section_text">
+                  <div style="padding-left:20px" >
+                    <p style="font-weight:600;"> 内部非财务分析 </p>
+                    <p style="font-weight:100; font-size:30px"> 股权结构 | 创新能力 |
+                    <br>公司形象 </p>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </section>
+
+        <!-- Slide 5-1_0 -->
+        <section data-background="picture/Blank-header.png">
+          <div style="text-align:left;padding-left:200px;padding-top:20px">
+            <h3> 外部环境因子 </h3>
+          </div>
+          <div style="padding-top:100px">
+            <img src="picture/5-1-0.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-1_1 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-1_1.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-2 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-2.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-2_1 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-2_1.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-2_2 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-2_2.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-3 -->
+        <section data-background="picture/Blank-header.png">
+          <div style="text-align:left;padding-left:200px;padding-top:20px">
+            <h3> 行业环境因子 </h3>
+          </div>
+          <div style="padding-top:100px">
+            <img src="picture/5-3.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-4 -->
+        <section data-title="BarChart_5_4" data-background="picture/Empty_background.png">
+          <div style="padding: 50px 10%;height:800px">
+            <div id="BarChart_5_4" class="chart"> </div>
+          </div>
+        </section>
+
+        <!-- Slide 5-5 -->
+        <section data-title="PieChart_5_5" data-background="picture/Empty_background.png">
+          <div style="padding: 10px 10%;height:800px">
+            <div id="PieChart_5_5" class="chart"> </div>
+          </div>
+        </section>
+
+        <!-- Slide 5-7-->
+        <section data-background="picture/Empty-header.png" data-background-size="115%">
+          <div style="text-align:left;padding-left:120px;padding-bottom:0px">
+            <p style="font-size:70px">行业集中度</p>
+          </div>
+          <div>
+            <img src="picture/5-7-pic1.png" width="1200px" style="border:0px"> </img>
+          </div>
+          <div style="padding-bottom: 50px;">
+            <img src="picture/5-7-pic2.png" width="1300px" style="border:0px"> </img>
+          </div>
+          <div style="position:relative; right:100px; text-align:right">
+            <p style="font-size:30px;font-weight:200"> 来源：西安交通大学经济与金融学院 <p>
+          </div>
+        </section>
+
+        <!-- Slide 5-8-->
+        <section data-background="picture/Blank-header.png">
+          <div style="text-align:left;padding-left:200px;padding-top:20px">
+            <h3> 内部非财务因子 </h3>
+          </div>
+          <div style="padding-top:100px">
+            <img src="picture/5-8.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-10 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-10.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 5-11 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/5-11.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 7: 模型构建 - 画像模型 -->
+      <section>
+        <section data-background="picture/7.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 模 型 构 建 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:440px;padding-right:100px;">
+                <p style="font-size:50px;font-weight:200"> 建议 2.1</p>
+                <p style="font-size:80px;"> 画像模型 </p> <br>
+                <p style="font-weight:100"> PROFILING MODEL </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 7-1 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/7-1.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- Slide 7-2 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/7-2.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 8: 主要发现 - 重要性分析 -->
+      <section>
+
+        <section data-background="picture/8.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 主 要 发 现 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:440px;padding-right:100px;">
+                <p style="font-size:50px;font-weight:200"> 建议 2.2</p>
+                <p style="font-size:80px;"> 重要性分析 </p> <br>
+                <p style="font-weight:100"> RISK FACTOR SIGNIFICANCE </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 8-1 -->
+        <section data-background-iframe="Jupyter_notebook.html" data-background-interactive>
+					<div style="position: absolute; width: 30%; top: 10px; right: 0;
+          box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2);
+          background-color: rgba(0, 0, 0, 0.9); ;
+          padding: 20px;  text-align: left;">
+						<p style="font-size: 30px;color: white">Jupyter Notebook 与 数据库​</p>
+					</div>
+				</section>
+
+        <!-- 8-2 -->
+        <section data-title="BarChartY0" data-background="picture/Empty_background.png">
+          <div style="padding: 10px 10% 0;height:900px;">
+            <div id="BarChartY0" class="chart" style="height:800px"></div>
+          </div>
+        </section>
+
+        <!-- 8-3 -->
+        <section data-title="BarChartY1" data-background="picture/Empty_background.png">
+          <div style="padding: 10px 10% 0;height:900px;">
+            <div id="BarChartY1" class="chart" style="height:800px"></div>
+          </div>
+        </section>
+
+        <!-- 8-4 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/8-4.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <!-- 8-5 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/8-5.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 6: 可视化 -->
+      <section>
+
+        <section data-background="picture/6.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 可 视 化 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:440px;padding-right:100px;">
+                <p style="font-size:50px;font-weight:200"> 建议 3.1 & 3.2</p>
+                <p style="font-size:80px;"> 多维画像模型可视化 </p> <br>
+                <p style="font-weight:100"> ANALYSIS RESULT VISUALISATION </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 6-1 -->
+        <section data-title="RadarChart1" data-background="picture/Empty-header.png" data-background-position="center">
+          <div style="text-align:left;font-size: 60px;padding-left:220px">
+            四个维度的公司画像模型
+          </div>
+          <div style="padding: 50px 20% 0;">
+            <div id="RadarChart1" class="chart"></div>
+          </div>
+        </section>
+
+        <!-- Slide 6-2 -->
+        <section data-title="RadarChart2" data-background="picture/Empty-header.png" data-background-position="center">
+          <div style="text-align:left;font-size: 60px;padding-left:220px">
+            25个维度的公司画像模型
+          </div>
+          <div style="padding: 10px 10%;">
+            <div id="RadarChart2" class="chart" style="padding-top:50px"></div>
+          </div>
+        </section>
+
+        <!-- Slide 6-3 -->
+        <section data-background="picture/Empty-header.png">
+          <div style="text-align:left;font-size: 60px;padding-left:220px;padding-top:80px">
+            应用情景
+          </div>
+          <div style="padding-top:10px">
+            <img src="picture/6-3.png" width="75%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 9: 模型验证 - 个案研究 -->
+      <section data-background="picture/9.png" data-background-position="center" data-background-size="120%">
+        <section>
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 模 型 验 证 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:480px;padding-right:100px;">
+                <p style="font-size:80px;"> 个 案 研 究 </p> <br>
+                <p style="font-weight:100"> CASE STUDY </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 9-1 -->
+        <section data-title = "RadarChart2_beixun" data-background="picture/Empty-header.png">
+          <div style="text-align:left;padding-left:220px;padding-top:70px">
+            <p style="font-size:60px"> 北讯集团股份有限公司 ——
+            <span style="color:#86bc25"> 系统得分: 32 </span> </p>
+          </div>
+          <div style="display:flex; padding-left:120px">
+            <div style="padding-top:50px;padding-left:150px">
+              <img src="picture/9-1_pic.png" width="600px"></img>
+            </div>
+            <div style="width:1000px;text-align:center;height:800px">
+              <div style="padding: 0 5% 200px;">
+                <div id="RadarChart2_beixun" class="chart" style="padding-top:50px"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 9-2 -->
+        <section data-title = "RadarChart2_shunfeng" data-background="picture/Empty-header.png">
+          <div style="text-align:left;padding-left:220px;padding-top:70px">
+            <p style="font-size:60px"> 顺丰控股股份有限公司 ——
+            <span style="color:#86bc25"> 系统得分: 84.5 </span> </p>
+          </div>
+          <div style="display:flex;padding-left:120px">
+            <div style="padding-top:50px;padding-left:150px">
+              <img src="picture/9-2_pic.png" width="600px"></img>
+            </div>
+            <div style="width:1000px;text-align:center;height:800px">
+              <div style="padding: 0 5% 200px;">
+                <div id="RadarChart2_shunfeng" class="chart" style="padding-top:50px"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 9-3 -->
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/9-3.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+      </section>
+
+      <!-- Slide 10: 实施时间轴 -->
+      <section>
+        <section data-background="picture/10.png" data-background-position="center" data-background-size="120%">
+          <div class="slide49">
+            <div class="slide49_left">
+              <p style="color:white;font-size:60px;"> 建议总结 </p>
+            </div>
+            <div class="slide49_right">
+              <div style="padding-top:480px;padding-right:100px;">
+                <p style="font-size:80px;"> 实施时间轴 </p> <br>
+                <p style="font-weight:100"> IMPLEMENTATION TIMELINE </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Slide 10-1 -->
+        <section data-background="picture/Empty-header.png">
+          <div style="text-align:left;font-size: 60px;padding-left:220px">
+            模型未来发展
+          </div>
+          <div style="padding-top:80px">
+            <img src="picture/10-1.png" width="85%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+
+      </section>
+
+      <!-- Slide 12: 结语-->
+      <section data-background="picture/12.png" data-background-position="center" >
+        <div style="style:flex;width:1550px; height:900px;">
+          <div style="position:absolute;left:50px;padding-top:50px">
+            <img src="picture/photo_together.png" height="750px" style="border:0"> </img>
+          </div>
+          <div style="padding-top:270px; text-align:right; padding-left:350px">
+            <p style="font-weight:900; font-size:60px"> 非常感谢德勤<br>提供的学习机会 </p>
+            <p style="font-weight:200; font-size:50px"> 我们受益匪浅<br><br> </p>
+            <div style="color:#86bc25;font-weight:900; font-size:55px">Thank you.</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 13: 附录-->
+      <section data-background="picture/13.png" data-background-position="center" data-background-size="120%">
+        <div class="slide49">
+          <div class="slide49_left">
+            <p style="color:white;font-size:60px;"> 附录 </p>
+          </div>
+          <div class="slide49_right">
+            <div style="padding-top:480px;padding-right:100px;">
+              <p style="font-size:80px;"> 研究附录 </p> <br>
+              <p style="font-weight:100"> APPENDIX </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/Appendix-1.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/Appendix-2.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/Appendix-3.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+        <section data-background="picture/Empty.png">
+          <div>
+            <img src="picture/Appendix-4.png" width="100%" style="border:0;box-shadow:0px 0px 0px #999"> </img>
+          </div>
+        </section>
+
+    </div>
+  </div>
+
+  <!-- load all necessary js modules (echarts.js and reveal.js) online-->
+  <script src="https://cdn.bootcss.com/reveal.js/3.6.0/js/reveal.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/echarts.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-gl/echarts-gl.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts-stat/ecStat.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/dataTool.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/china.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/map/js/world.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/echarts/extension/bmap.min.js"></script>
+  <script type="text/javascript" src="http://echarts.baidu.com/gallery/vendors/simplex.js"></script>
+
+  <!-- load all js files as data for echarts -->
+  <script type="text/javascript" src="js/Data/life-expectancy-table.js"></script>
+  <script type="text/javascript" src="js/Data/ThreeDCharts.js"></script>
+  <script type="text/javascript" src="js/Data/BarCharts.js"></script>
+  <script type="text/javascript" src="js/Data/PieCharts.js"></script>
+  <script type="text/javascript" src="js/Data/RadarCharts.js"></script>
+  <script type="text/javascript" src="js/Data/TreeMap.js"></script>
+
+  <!-- load main js file to incorperate reveal.js and echarts.js -->
+  <script src="js/main.js"></script>
+</body>
+</html>

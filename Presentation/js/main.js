@@ -1,10 +1,23 @@
+//YBarChart0
+function drawYBarChart0() {
+    var dom = document.getElementById("BarChartY0");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+
+    option = YBarChart_option0;
+
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+}
+
 //YBarChart1
 function drawYBarChart1() {
     var dom = document.getElementById("BarChartY1");
     var myChart = echarts.init(dom);
     var app = {};
     option = null;
-    app.title = '世界人口总量 - 条形图';
 
     option = YBarChart_option1;
 
@@ -21,20 +34,6 @@ function drawBarChart_5_4() {
     option = null;
 
     option = BarChart_5_4_option;
-
-    if (option && typeof option === "object") {
-        myChart.setOption(option, true);
-    }
-}
-
-//PieChart1
-function drawPieChart1() {
-    var dom = document.getElementById("PieChart1");
-    var myChart = echarts.init(dom);
-    var app = {};
-    option = null;
-
-    option = PieChart1_option;
 
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
@@ -62,7 +61,7 @@ function drawRadarChart1() {
     var myChart = echarts.init(dom);
     var app = {};
     option = null;
-    app.title = '风险评估';
+    app.title = '4维风险评估';
 
     option = RadarChart_option1;
 
@@ -71,16 +70,45 @@ function drawRadarChart1() {
     }
 }
 
-//ChartScatter3D
-function drawScatter3D() {
-    var dom = document.getElementById("Scatter3D");
+//RadarChart2
+function drawRadarChart2() {
+    var dom = document.getElementById("RadarChart2");
     var myChart = echarts.init(dom);
     var app = {};
     option = null;
-    app.title = 'RGB';
+    app.title = '25维风险评估';
 
-    option = Scatter3D_option;
-    myChart.setOption(option);
+    option = RadarChart_option2;
+
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+}
+
+//RadarChart2_beixun
+function drawRadarChart2_beixun() {
+    var dom = document.getElementById("RadarChart2_beixun");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = '25维风险评估';
+
+    option = RadarChart_option2_beixun;
+
+    if (option && typeof option === "object") {
+        myChart.setOption(option, true);
+    }
+}
+
+//RadarChart2_shunfeng
+function drawRadarChart2_shunfeng() {
+    var dom = document.getElementById("RadarChart2_shunfeng");
+    var myChart = echarts.init(dom);
+    var app = {};
+    option = null;
+    app.title = '25维风险评估';
+
+    option = RadarChart_option2_shunfeng;
 
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
@@ -93,10 +121,11 @@ function drawTreeMap1() {
     var myChart = echarts.init(dom);
     var app = {};
     option = null;
-    app.title = '风险因子模型';
+    app.title = 'Tree map';
 
-    option = TreeMap_option1;
+    option = TreeMap1_option;
 
+    myChart.setOption(option);;
     if (option && typeof option === "object") {
         myChart.setOption(option, true);
     }
@@ -135,8 +164,8 @@ Reveal.addEventListener('slidechanged', function (event) {
         case "3dChart1":
             draw3DChart1();
             break;
-        case "PieChart1":
-            delayDraw(drawPieChart1);
+        case "BarChartY0":
+            delayDraw(drawYBarChart0);
             break;
         case "BarChartY1":
             delayDraw(drawYBarChart1);
@@ -144,11 +173,17 @@ Reveal.addEventListener('slidechanged', function (event) {
         case "RadarChart1":
             delayDraw(drawRadarChart1);
             break;
-        case "TreeMap1":
-            delayDraw(drawTreeMap1);
+        case "RadarChart2":
+            delayDraw(drawRadarChart2);
             break;
-        case "Scatter3D":
-            delayDraw(drawScatter3D);
+        case "RadarChart2_beixun":
+            delayDraw(drawRadarChart2_beixun);
+            break;
+        case "RadarChart2_shunfeng":
+            delayDraw(drawRadarChart2_shunfeng);
+            break;
+        case "TreeMap1":
+            drawTreeMap1();
             break;
         case "BarChart_5_4":
             delayDraw(drawBarChart_5_4);
