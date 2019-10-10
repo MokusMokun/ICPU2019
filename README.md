@@ -8,7 +8,7 @@
 | ------------- |:-------------:| :----------:|
 | Alex Ziqing Zhao | Team Leader & Commerce Consultant | Commerce & Law |
 | Linda Jiaqi Deng | Data Analyst & Consultant |   Commerce & Data Science |
-| Mirope Yuhao Hu  | IT Specialist & Consultant |  Computer Science |
+| __Mirope Yuhao Hu (Me)__  | IT Specialist & Consultant |  Computer Science |
 | Reya Si Chen     | Literature Researcher | Anthropology & Spanish |
 | Nikki Yixuan Zhang | Data Analyst | Data Science |
 | Eric Shenqian Tang | Literature Researcher & Law Consultant | Law |
